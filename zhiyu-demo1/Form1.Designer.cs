@@ -42,7 +42,7 @@
             // buttonOpen
             // 
             this.buttonOpen.BackColor = System.Drawing.SystemColors.Highlight;
-            this.buttonOpen.Location = new System.Drawing.Point(37, 31);
+            this.buttonOpen.Location = new System.Drawing.Point(1068, 31);
             this.buttonOpen.Name = "buttonOpen";
             this.buttonOpen.Size = new System.Drawing.Size(86, 33);
             this.buttonOpen.TabIndex = 0;
