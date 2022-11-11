@@ -41,8 +41,8 @@
             // 
             // buttonOpen
             // 
-            this.buttonOpen.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.buttonOpen.Location = new System.Drawing.Point(947, 30);
+            this.buttonOpen.BackColor = System.Drawing.SystemColors.Highlight;
+            this.buttonOpen.Location = new System.Drawing.Point(37, 31);
             this.buttonOpen.Name = "buttonOpen";
             this.buttonOpen.Size = new System.Drawing.Size(86, 33);
             this.buttonOpen.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(24, 37);
+            this.label1.Location = new System.Drawing.Point(141, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 16);
             this.label1.TabIndex = 1;
@@ -67,9 +67,10 @@
             // 
             // textBoxTask
             // 
-            this.textBoxTask.Location = new System.Drawing.Point(109, 37);
+            this.textBoxTask.Location = new System.Drawing.Point(226, 31);
+            this.textBoxTask.Multiline = true;
             this.textBoxTask.Name = "textBoxTask";
-            this.textBoxTask.Size = new System.Drawing.Size(225, 21);
+            this.textBoxTask.Size = new System.Drawing.Size(225, 26);
             this.textBoxTask.TabIndex = 2;
             this.textBoxTask.Text = "请输入任务名称";
             this.textBoxTask.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -79,7 +80,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(377, 37);
+            this.label2.Location = new System.Drawing.Point(494, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 3;
@@ -95,11 +96,10 @@
             "华为",
             "苹果",
             "安卓"});
-            this.comboBoxBrand.Location = new System.Drawing.Point(462, 37);
+            this.comboBoxBrand.Location = new System.Drawing.Point(597, 37);
             this.comboBoxBrand.Name = "comboBoxBrand";
-            this.comboBoxBrand.Size = new System.Drawing.Size(137, 20);
+            this.comboBoxBrand.Size = new System.Drawing.Size(119, 20);
             this.comboBoxBrand.TabIndex = 4;
-            this.comboBoxBrand.Text = "请选择手机品牌";
             this.comboBoxBrand.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBoxStatus
@@ -110,18 +110,17 @@
             "正常",
             "异常",
             "停止"});
-            this.comboBoxStatus.Location = new System.Drawing.Point(677, 37);
+            this.comboBoxStatus.Location = new System.Drawing.Point(794, 37);
             this.comboBoxStatus.Name = "comboBoxStatus";
             this.comboBoxStatus.Size = new System.Drawing.Size(119, 20);
             this.comboBoxStatus.TabIndex = 6;
-            this.comboBoxStatus.Text = "请选择状态";
             this.comboBoxStatus.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(624, 37);
+            this.label3.Location = new System.Drawing.Point(741, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 16);
             this.label3.TabIndex = 5;
@@ -130,8 +129,8 @@
             // 
             // buttonFind
             // 
-            this.buttonFind.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.buttonFind.Location = new System.Drawing.Point(855, 30);
+            this.buttonFind.BackColor = System.Drawing.SystemColors.Highlight;
+            this.buttonFind.Location = new System.Drawing.Point(976, 31);
             this.buttonFind.Name = "buttonFind";
             this.buttonFind.Size = new System.Drawing.Size(86, 33);
             this.buttonFind.TabIndex = 7;
